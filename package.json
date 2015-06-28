@@ -1,6 +1,6 @@
 {
   "name": "wao-api-sign",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "WAOのAPI認証用署名モジュール",
   "main": "./lib/index.js",
   "scripts": {

@@ -1,5 +1,4 @@
-var Signer = require('../lib'),
-  SignKey = require('../lib/signature_key');
+var Signer = require('../lib');
 
 var reqDate = '2015-06-27T01:08:24.910Z';
 
@@ -14,7 +13,7 @@ var req = signer.sign({
   },
   payload: 'aaaaaaaaaaaaaaaa=ccccccccccccccc&bb&fefa',
   date: reqDate,
-  signKey: SignKey.create('secretKey', reqDate)
+  signKey: signer.createSignKey('secretKey', reqDate)
 });
 
 console.log(req);

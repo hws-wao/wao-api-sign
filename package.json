@@ -4,9 +4,12 @@
   "description": "WAOのAPI認証用署名モジュール",
   "main": "./lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test"
   },
   "author": "yujiroarai",
   "license": "MIT",
-  "repository": "hws-wao/wao-api-sign"
+  "repository": "hws-wao/wao-api-sign",
+  "dependencies": {
+    "querystring": "^0.2.0"
+  }
 }
